@@ -54,7 +54,7 @@ endif
 " | Foo | Woo |
 " | Bar | Hoo |
 if g:gfm_syntax_highlight_table
-    syn match githubFlavoredMarkdownTable "^|.\+|\s*$" contains=
+    syn match githubFlavoredMarkdownTable "^|.\+|.*" contains=
                 \githubFlavoredMarkdownTableDelimiter,githubFlavoredMarkdownTableAligner,githubFlavoredMarkdownTableAlignBorder,
                 \githubFlavoredMarkdownTableBorderAligner,githubFlavoredMarkdownTableBorder,githubFlavoredMarkdownCode,
                 \markdownBoldItalic,markdownBold,markdownItalic,markdownLinkText,markdownIdDeclaration,githubFlavoredMarkdownMention,
